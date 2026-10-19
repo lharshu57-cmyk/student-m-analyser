@@ -1,7 +1,7 @@
 import csv 
 import os
 
-name = input("enter student name:")
+name = input("enter student Full name:")
 subjects =["Python" , "Database" , "Maths" , "English" , "Computer"]
 marks = []
 
@@ -11,7 +11,6 @@ for subject in subjects:
 
 total = sum(marks)
 average = total / len(marks)
-
 if average >=90:
     grade ="A+"
 elif average >=80:
@@ -55,3 +54,4 @@ with open(file_name, "a", newline= "") as file:
         results
         ])
 print("\nResults has been saved to student_results.csv")
+
