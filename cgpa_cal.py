@@ -3,7 +3,7 @@ num_subjects =int(input("enter number of subjects "))
 total_grade_points = 0
 for i in range(num_subjects):
     grade_point = float(input(f"enter grade point for subject {i+1}: "))
-    total_grade_points += grade_point
+    total_grade_points += grade_points
 
 cgpa = total_grade_points / num_subjects
 
